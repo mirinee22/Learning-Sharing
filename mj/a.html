@@ -3,38 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
     <title>MJ home</title>
   </head>
 
   <body>
   <div id="header">
-    <a href="a.html">
-    <div id="home-button">mj's homepage</div>
+    <a href="a.html" title="home">
+      <div class="home-button">mj's homepage</div>
     </a>
-    <div id="header-menu">
-        <a href="b.html">
-        <span class="block">profile </span>
-        </a>
-        <a href="g.html">
-        <sapn class="block"> comment</span>
-        </a>
+  </div>
 
-    </div>
-    </div>
-    <img src="i beacker.png" alt="">
 
-    <table>
+
+<a class="fullscreen" href="c.js" title="전체화면" onclick="openFullscreenMode()">
+<div id="header-menu">
+  <a class="bl0" href="b.html">
+      <span class="block">profile </span>
+  </a>
+  <a class="bl1" href="g.html">
+    <span class="block">comment </span>
+  </a>
+
+  <div>
+    <img class="beacker" src="i beacker.png" alt="비커">
+    </div>
+
+  <div w>
+    <img class="water" src="i water.png" alt="풀">
+    <span class="txt">
+      <table id="table">
         <tr> 
-            <th>what i believe</th>
+          <th>what i do</th>
+        </tr>
+       <tr>
+         <td> • reading </td>
         </tr>
         <tr>
-          <td> • me </td>
+          <td> • organic </td>
         </tr>
         <tr>
+          <td> • listening </td>
+        </tr>
+        <tr>
+          <td> • happy </td>
+        </tr>
+        <tr>
+          <td> • studying </td>
+        </tr>
+    </table>
+  </div>
+</div>
+</a>
+
+
+
+
+<a class="close-fullscreen" href="c.js" title="창모드" onclick="closeFullscreenMode()">  
+
+  <div id="header-menu">
+      <a class="bl0" href="b.html">
+        <span class="block">profile </span>
+      </a>
+      <a class="bl1" href="g.html">
+        <span class="block">comment </span>
+      </a>
+
+
+    <div>
+      <img class="beacker" src="i beacker.png" alt="">
+    </div>
+
+    <div w>
+      <img class="water" src="i water.png" alt="">
+      <span class="txt">
+        <table id="table">
+          <tr> 
+            <th>what i do</th>
+          </tr>
+         <tr>
+           <td> • reading </td>
+          </tr>
+          <tr>
             <td> • organic </td>
           </tr>
           <tr>
-            <td> • natural </td>
+            <td> • listening </td>
           </tr>
           <tr>
             <td> • happy </td>
@@ -43,10 +97,15 @@
             <td> • studying </td>
           </tr>
       </table>
+    </div>
+  </div>
+</a>
 
-      <img src="i water.png" alt="">
-    <p>
-        서울시 광진구 군자동 / Learning and Sharing
-    </p>
+    <div style="position: fixed; right: 3px; bottom: 0px; z-index: 9;">
+      서울시 광진구 능동로 / Learning and Sharing
+    </div>
+        
   </body>
+
+
 </html>
